@@ -9,8 +9,8 @@ class mqtt (
   String $ip = '172.17.0.4',
 ) {
   docker::container { 'mqtt':
-    image   => 'ghcr.io/wez/govee2mqtt:latest',
-    args    => [
+    image => 'ghcr.io/wez/govee2mqtt:latest',
+    args  => [
       "--ip ${ip}",
       "--env GOVEE_API_KEY=${govee_api_key}",
       "--env GOVEE_MQTT_HOST=${mqtt_host}",
