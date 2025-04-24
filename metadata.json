@@ -1,0 +1,16 @@
+{
+  "name": "halyard-govee",
+  "version": "0.0.1",
+  "author": "Les Aker",
+  "license": "MIT",
+  "summary": "Configure govee2mqtt instance",
+  "source": "https://github.com/halyard/puppet-govee",
+  "project_page": "https://github.com/halyard/puppet-govee",
+  "issues_url": "https://github.com/halyard/puppet-govee/issues",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+
+  ]
+}
