@@ -17,5 +17,6 @@ class govee (
       '--env GOVEE_MQTT_PORT=1883',
       '--env TZ=America/New_York',
     ],
+    cmd   => '',
   }
 }
