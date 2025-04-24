@@ -3,7 +3,7 @@
 # @param govee_api_key sets the API key for the Govee API
 # @param mqtt_host defines the IP to send/receive MQTT to
 # @param ip sets the IP of the mqtt container
-class mqtt (
+class govee (
   String $govee_api_key,
   String $mqtt_host,
   String $ip = '172.17.0.4',
