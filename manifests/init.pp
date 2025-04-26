@@ -8,7 +8,7 @@ class govee (
   String $mqtt_host,
   String $ip = '172.17.0.4',
 ) {
-  docker::container { 'mqtt':
+  docker::container { 'govee':
     image => 'ghcr.io/wez/govee2mqtt:latest',
     args  => [
       "--ip ${ip}",
